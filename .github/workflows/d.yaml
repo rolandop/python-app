@@ -18,4 +18,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: rolandop/python-app:${{GITHUB_SHA::6}}
+          tags: rolandop/python-app:${{github.sha::6}}
