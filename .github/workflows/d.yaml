@@ -2,6 +2,10 @@ name: ci
 
 on:
   push:
+    paths:
+      - 'src/**'
+    braches:
+      - main
 
 jobs:
   docker:
